@@ -6,10 +6,10 @@ int main()
 	int tab;
 	for(i=1;i<=5;i++)
 	{
+		printf("Row %d|", i);
 		for(j=1;j<=5;j++)
 		{
 			tab=i*j;
-			printf("%d ",i);
 			printf("%4d",tab);
 		}
 		printf("\n");
